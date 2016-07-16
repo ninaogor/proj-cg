@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Continuous Good Pages feature.
+ */
+
+include_once 'cg_pages.features.inc';
