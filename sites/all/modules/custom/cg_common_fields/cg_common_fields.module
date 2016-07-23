@@ -1,7 +1,5 @@
 <?php
 /**
  * @file
- * Code for the cg_common_fields feature.
+ * Drupal needs this blank file.
  */
-
-include_once 'cg_common_fields.features.inc';
