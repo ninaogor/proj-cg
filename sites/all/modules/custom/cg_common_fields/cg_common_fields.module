@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the cg_common_fields feature.
+ */
+
+include_once 'cg_common_fields.features.inc';
