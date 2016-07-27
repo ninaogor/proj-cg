@@ -23,7 +23,7 @@ function cg_pages_default_ctools_custom_content() {
     'body' => '<div class="step-blocks">
     <div class="step-block" id="causes">
         <div class="bg-container">
-            <img class="step-inner" src="/sites/all/themes/cg_theme/images/circle-icon-check.jpg" />
+            <img class="step-inner" src="sites/all/themes/cg_theme/images/circle-icon-check.jpg" />
         </div>
         <div>
             <p class="step-num">1</p>
@@ -32,7 +32,7 @@ function cg_pages_default_ctools_custom_content() {
     </div>
     <div class="step-block" id="amount">
         <div class="bg-container">
-            <img class="step-inner" src="/sites/all/themes/cg_theme/images/circle-icon-cal.jpg" />
+            <img class="step-inner" src="sites/all/themes/cg_theme/images/circle-icon-cal.jpg" />
         </div>
         <div>
             <p class="step-num">2</p>
@@ -41,7 +41,7 @@ function cg_pages_default_ctools_custom_content() {
     </div>
     <div class="step-block" id="enjoy">
         <div class="bg-container">
-            <img class="step-inner" src="/sites/all/themes/cg_theme/images/circle-icon-heart.jpg" />
+            <img class="step-inner" src="sites/all/themes/cg_theme/images/circle-icon-heart.jpg" />
         </div>
         <div>
             <p class="step-num">3</p>
