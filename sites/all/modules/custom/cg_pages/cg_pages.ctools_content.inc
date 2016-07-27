@@ -13,6 +13,22 @@ function cg_pages_default_ctools_custom_content() {
   $content = new stdClass();
   $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
   $content->api_version = 1;
+  $content->name = 'homepage';
+  $content->admin_title = 'Homepage';
+  $content->admin_description = '';
+  $content->category = 'Homepage';
+  $content->settings = array(
+    'admin_title' => '',
+    'title' => 'Homepage',
+    'body' => 'yada',
+    'format' => 'filtered_html',
+    'substitute' => 1,
+  );
+  $export['homepage'] = $content;
+
+  $content = new stdClass();
+  $content->disabled = FALSE; /* Edit this to true to make a default content disabled initially */
+  $content->api_version = 1;
   $content->name = 'one_action_continuous_good';
   $content->admin_title = 'One action continuous good';
   $content->admin_description = 'One action continuous good custom content pane.';
