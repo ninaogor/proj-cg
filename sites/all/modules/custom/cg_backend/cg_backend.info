@@ -1,0 +1,17 @@
+name = CG Backend
+core = 7.x
+package = Features
+dependencies[] = cg_common_fields
+dependencies[] = features
+dependencies[] = image
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_image
+features[field_base][] = field_tags
+features[field_instance][] = node-article-body
+features[field_instance][] = node-article-field_image
+features[field_instance][] = node-article-field_tags
+features[node][] = article
+features[taxonomy][] = tags
+project path = sites/all/modules/custom

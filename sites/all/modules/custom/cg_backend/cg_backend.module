@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CG Backend feature.
+ */
+
+include_once 'cg_backend.features.inc';
