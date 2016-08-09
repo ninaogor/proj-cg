@@ -1,0 +1,13 @@
+  <?php
+
+  /**
+   * @file
+   * Hooks and enable code for Continuous Good.
+   */
+
+  /**
+   * Implements hook_enable().
+   */
+  function cg_main_enable() {
+
+  }
