@@ -6,8 +6,11 @@
    */
 
   /**
-   * Implements hook_enable().
+   * Implements hook_enable($modules).
    */
-  function cg_main_enable() {
-
+  function hook_custom_theme(cg_theme) {
+  // Allow the user to request a particular theme via a query parameter.
+  if (isset($_GET['cg_theme'])) {
+    return $_GET['cg_theme'];
   }
+}
