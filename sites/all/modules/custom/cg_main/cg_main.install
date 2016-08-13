@@ -8,9 +8,15 @@
   /**
    * Implements hook_enable($modules).
    */
-  function hook_custom_theme(cg_theme) {
+  function hook_custom_theme() {
   // Allow the user to request a particular theme via a query parameter.
-  if (isset($_GET['cg_theme'])) {
+  if (isset($_GET['cg_main'])) {
     return $_GET['cg_theme'];
+  }
+}
+function hook_modules_enabled($modules) {
+  if (in_array('cg_main', $modules)) {
+    drupal_set_message(t('mymodule is not compatible with cg_main'), 'error');
+    mymodule_disable_functionality();
   }
 }
